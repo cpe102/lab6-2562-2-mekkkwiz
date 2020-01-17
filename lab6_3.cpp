@@ -3,6 +3,26 @@ using namespace std;
 
 char before(char x){
 	//Write your function definition here
+	char outp;
+	if ( x >= 'A' && x <= 'Z' )
+	{
+		if (x==65)
+		{
+			outp = 'Z';
+		}
+		else
+		{
+			outp = x-1;
+		}
+		return outp ;
+		
+	}
+	else
+	{
+		return '0';
+	}
+	
+	
 }
 
 int main(){
